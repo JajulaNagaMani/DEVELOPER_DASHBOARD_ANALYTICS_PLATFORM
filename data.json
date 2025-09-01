@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "mani",
+    "email": "mani@mail.com",
+    "bought": 10,
+    "returned": 2
+  },
+  {
+    "id": 2,
+    "name": "john",
+    "email": "john@mail.com",
+    "bought": 5,
+    "returned": 1
+  },
+  {
+    "id": 3,
+    "name": "sara",
+    "email": "sara@mail.com",
+    "bought": 8,
+    "returned": 3
+  },
+  {
+    "id": 1756553480840,
+    "name": "NagaMani",
+    "email": "nagamanijajula684@gmail.com",
+    "bought": 12,
+    "returned": 8
+  },
+  {
+    "id": 1756616949741,
+    "name": "lucky",
+    "email": "lucky@gmail.com",
+    "bought": 32,
+    "returned": 23
+  }
+]
