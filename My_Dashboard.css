@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background: #eef2f5;
+    padding: 20px;
+}
+
+/* heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* form box */
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 180px;
+}
+
+button {
+    padding: 8px 12px;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* customer cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    width: 240px;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0;
+    color: blue;
+}
+
+/* charts */
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.charts canvas {
+    width: 600px;
+    height: 300px;
+    background: #fff;
+}

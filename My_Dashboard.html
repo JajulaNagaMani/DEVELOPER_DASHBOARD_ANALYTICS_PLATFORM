@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="My_Dashboard.css">
+
+    <!-- chart.js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- my js file -->
+    <script src="My_Dashboard.js" defer></script>
+</head>
+<body>
+
+    <h1>Customer Dashboard</h1>
+
+    <!-- form to add customer -->
+    <div>
+        <input type="text" id="name" placeholder="Customer Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="bought" placeholder="Products Bought">
+        <input type="number" id="returned" placeholder="Products Returned">
+        <button onclick="addCustomer()">Add Customer</button>
+    </div>
+
+    <!-- where customers will be shown -->
+    <div id="customerContainer"></div>
+
+    <!-- charts -->
+    <div>
+        <canvas id="barChartBought"></canvas>
+        <canvas id="barChartReturned"></canvas>
+        <canvas id="pieChart"></canvas>
+    </div>
+
+</body>
+</html>
